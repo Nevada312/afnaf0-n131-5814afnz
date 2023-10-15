@@ -14,7 +14,7 @@ module.exports = {
         new MessageButton()
           .setStyle('LINK')
           .setLabel('Appeal your ban')
-          .setURL('https://docs.google.com/forms/d/e/1FAIpQLSffaMifrLtDclErfCDKSs2k604F4yviZTf4sCcW-xj-WzfNyg/viewform') // Replace with your actual application URL
+          .setURL('https://docs.google.com/forms/d/e/1FAIpQLSffaMifrLtDclErfCDKSs2k604F4yviZTf4sCcW-xj-WzfNyg/viewform') 
       );
     message.delete()
     await message.channel.send({ embeds: [embed], components: [row] });
