@@ -17,7 +17,7 @@ module.exports = {
           type: 2, // Button
           style: 5, // Link Button
           label: 'Apply Now',
-          url: 'https://docs.google.com/forms/d/e/1FAIpQLSeibqG-2ICO11Um0MaVCoUqvoNHgKCGYQEqkqhUPMYH7bBN0g/viewform', // Replace with your actual application URL
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLSeibqG-2ICO11Um0MaVCoUqvoNHgKCGYQEqkqhUPMYH7bBN0g/viewform', 
         },
       ],
     };
